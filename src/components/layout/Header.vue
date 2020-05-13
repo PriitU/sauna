@@ -11,6 +11,10 @@
 </script>
 
 <style scoped>
+    h1 {
+        margin: 5px;
+    }
+
     .header {
         background: #333;
         color: #fff;
