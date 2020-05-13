@@ -8,11 +8,22 @@
 <script>
 import Header from './components/layout/Header';
 import Graph from './components/Graph';
+import axios from 'axios';
+
 export default {
   name: 'App',
   components: {
     Header,
     Graph
+  },
+  created() {
+    console.log(process.env.VUE_APP_ROOT_API)
+    axios.get(process.env.VUE_APP_ROOT_API + '/dev/saun-test')
+      .then(res => {
+        this.data = res.data;
+        console.log(this.data);
+        })
+      .catch(err => console.log(err));
   }
 }
 </script>
