@@ -1,0 +1,1532 @@
+[
+    {
+    "air": 11.3,
+    "water": 19.3,
+    "sauna": 17.3,
+    "timestamp": 1589141344000
+    },
+    {
+    "air": 12,
+    "water": 19,
+    "sauna": 17.3,
+    "timestamp": 1589142253000
+    },
+    {
+    "air": 12.8,
+    "water": 19,
+    "sauna": 17.3,
+    "timestamp": 1589143162000
+    },
+    {
+    "air": 13.3,
+    "water": 19,
+    "sauna": 17.3,
+    "timestamp": 1589144071000
+    },
+    {
+    "air": 14.5,
+    "water": 19,
+    "sauna": 17.3,
+    "timestamp": 1589144935000
+    },
+    {
+    "air": 15.3,
+    "water": 19,
+    "sauna": 17.3,
+    "timestamp": 1589145844000
+    },
+    {
+    "air": 15.5,
+    "water": 19,
+    "sauna": 17.3,
+    "timestamp": 1589146708000
+    },
+    {
+    "air": 15.8,
+    "water": 19,
+    "sauna": 17.3,
+    "timestamp": 1589147617000
+    },
+    {
+    "air": 16.3,
+    "water": 19.3,
+    "sauna": 17.3,
+    "timestamp": 1589148527000
+    },
+    {
+    "air": 17,
+    "water": 19.3,
+    "sauna": 17.3,
+    "timestamp": 1589149436000
+    },
+    {
+    "air": 18,
+    "water": 19.3,
+    "sauna": 17.5,
+    "timestamp": 1589150346000
+    },
+    {
+    "air": 18.8,
+    "water": 19.3,
+    "sauna": 17.8,
+    "timestamp": 1589151255000
+    },
+    {
+    "air": 19.8,
+    "water": 19.3,
+    "sauna": 18,
+    "timestamp": 1589152164000
+    },
+    {
+    "air": 20.5,
+    "water": 19.5,
+    "sauna": 18.5,
+    "timestamp": 1589153073000
+    },
+    {
+    "air": 21.3,
+    "water": 19.5,
+    "sauna": 19,
+    "timestamp": 1589153982000
+    },
+    {
+    "air": 22,
+    "water": 19.5,
+    "sauna": 19.5,
+    "timestamp": 1589154846000
+    },
+    {
+    "air": 23.3,
+    "water": 19.5,
+    "sauna": 20.3,
+    "timestamp": 1589155755000
+    },
+    {
+    "air": 23.3,
+    "water": 19.5,
+    "sauna": 20.8,
+    "timestamp": 1589156619000
+    },
+    {
+    "air": 24.3,
+    "water": 19.5,
+    "sauna": 21.3,
+    "timestamp": 1589157483000
+    },
+    {
+    "air": 25,
+    "water": 19.5,
+    "sauna": 21.8,
+    "timestamp": 1589158574000
+    },
+    {
+    "air": 25.3,
+    "water": 19.5,
+    "sauna": 22.3,
+    "timestamp": 1589159438000
+    },
+    {
+    "air": 25.3,
+    "water": 19.5,
+    "sauna": 22.5,
+    "timestamp": 1589160530000
+    },
+    {
+    "air": 25.8,
+    "water": 19.5,
+    "sauna": 22.8,
+    "timestamp": 1589161439000
+    },
+    {
+    "air": 24,
+    "water": 19.5,
+    "sauna": 23,
+    "timestamp": 1589162347000
+    },
+    {
+    "air": 25.5,
+    "water": 19.8,
+    "sauna": 23.3,
+    "timestamp": 1589163211000
+    },
+    {
+    "air": 25.5,
+    "water": 19.5,
+    "sauna": 23.5,
+    "timestamp": 1589164303000
+    },
+    {
+    "air": 26.5,
+    "water": 19.5,
+    "sauna": 23.8,
+    "timestamp": 1589165576000
+    },
+    {
+    "air": 25.8,
+    "water": 19.8,
+    "sauna": 24,
+    "timestamp": 1589166485000
+    },
+    {
+    "air": 25.5,
+    "water": 19.8,
+    "sauna": 24,
+    "timestamp": 1589167576000
+    },
+    {
+    "air": 24.8,
+    "water": 19.8,
+    "sauna": 24.3,
+    "timestamp": 1589168440000
+    },
+    {
+    "air": 26,
+    "water": 19.8,
+    "sauna": 24.5,
+    "timestamp": 1589169532000
+    },
+    {
+    "air": 25.5,
+    "water": 19.8,
+    "sauna": 24.5,
+    "timestamp": 1589170396000
+    },
+    {
+    "air": 25.5,
+    "water": 20,
+    "sauna": 24.8,
+    "timestamp": 1589171305000
+    },
+    {
+    "air": 25,
+    "water": 20,
+    "sauna": 25,
+    "timestamp": 1589172214000
+    },
+    {
+    "air": 26.8,
+    "water": 20,
+    "sauna": 25.3,
+    "timestamp": 1589173122000
+    },
+    {
+    "air": 24.3,
+    "water": 20,
+    "sauna": 25.3,
+    "timestamp": 1589173986000
+    },
+    {
+    "air": 26.3,
+    "water": 20,
+    "sauna": 25.3,
+    "timestamp": 1589174850000
+    },
+    {
+    "air": 26.3,
+    "water": 20.3,
+    "sauna": 25.5,
+    "timestamp": 1589175759000
+    },
+    {
+    "air": 25,
+    "water": 20.3,
+    "sauna": 27,
+    "timestamp": 1589177033000
+    },
+    {
+    "air": 25.3,
+    "water": 20,
+    "sauna": 55.5,
+    "timestamp": 1589177942000
+    },
+    {
+    "air": 24.8,
+    "water": 20.3,
+    "sauna": 71.8,
+    "timestamp": 1589178851000
+    },
+    {
+    "air": 25.5,
+    "water": 20.8,
+    "sauna": 71,
+    "timestamp": 1589179760000
+    },
+    {
+    "air": 24.5,
+    "water": 20,
+    "sauna": 93,
+    "timestamp": 1589180669000
+    },
+    {
+    "air": 25.5,
+    "water": 20,
+    "sauna": 81,
+    "timestamp": 1589181578000
+    },
+    {
+    "air": 25,
+    "water": 20,
+    "sauna": 74.8,
+    "timestamp": 1589182487000
+    },
+    {
+    "air": 25.8,
+    "water": 20,
+    "sauna": 70.8,
+    "timestamp": 1589183396000
+    },
+    {
+    "air": 26.5,
+    "water": 20.3,
+    "sauna": 80,
+    "timestamp": 1589184305000
+    },
+    {
+    "air": 24.5,
+    "water": 20,
+    "sauna": 77.3,
+    "timestamp": 1589185214000
+    },
+    {
+    "air": 26.3,
+    "water": 20.3,
+    "sauna": 75.5,
+    "timestamp": 1589186123000
+    },
+    {
+    "air": 24.3,
+    "water": 20.5,
+    "sauna": 84,
+    "timestamp": 1589187032000
+    },
+    {
+    "air": 24,
+    "water": 20.3,
+    "sauna": 74.8,
+    "timestamp": 1589187941000
+    },
+    {
+    "air": 19.3,
+    "water": 20.8,
+    "sauna": 68.8,
+    "timestamp": 1589189032000
+    },
+    {
+    "air": 18.8,
+    "water": 20.5,
+    "sauna": 65,
+    "timestamp": 1589189941000
+    },
+    {
+    "air": 18.5,
+    "water": 20.5,
+    "sauna": 61.5,
+    "timestamp": 1589190805000
+    },
+    {
+    "air": 18,
+    "water": 20.5,
+    "sauna": 58,
+    "timestamp": 1589191669000
+    },
+    {
+    "air": 18.3,
+    "water": 20.5,
+    "sauna": 55.3,
+    "timestamp": 1589192578000
+    },
+    {
+    "air": 17.5,
+    "water": 20.5,
+    "sauna": 52.8,
+    "timestamp": 1589193442000
+    },
+    {
+    "air": 17,
+    "water": 20.5,
+    "sauna": 50.5,
+    "timestamp": 1589194306000
+    },
+    {
+    "air": 16.8,
+    "water": 20.5,
+    "sauna": 48.3,
+    "timestamp": 1589195170000
+    },
+    {
+    "air": 16.5,
+    "water": 20.5,
+    "sauna": 46,
+    "timestamp": 1589196034000
+    },
+    {
+    "air": 15.8,
+    "water": 20.5,
+    "sauna": 44.3,
+    "timestamp": 1589196943000
+    },
+    {
+    "air": 15.8,
+    "water": 20.3,
+    "sauna": 42.5,
+    "timestamp": 1589197807000
+    },
+    {
+    "air": 15,
+    "water": 20.3,
+    "sauna": 40.8,
+    "timestamp": 1589198671000
+    },
+    {
+    "air": 14.8,
+    "water": 20.5,
+    "sauna": 39.3,
+    "timestamp": 1589199580000
+    },
+    {
+    "air": 14.5,
+    "water": 20.3,
+    "sauna": 37.8,
+    "timestamp": 1589200489000
+    },
+    {
+    "air": 14.3,
+    "water": 20.3,
+    "sauna": 36.5,
+    "timestamp": 1589201308000
+    },
+    {
+    "air": 14,
+    "water": 20.3,
+    "sauna": 35.3,
+    "timestamp": 1589202127000
+    },
+    {
+    "air": 14.3,
+    "water": 20.3,
+    "sauna": 34.3,
+    "timestamp": 1589202946000
+    },
+    {
+    "air": 14,
+    "water": 20.3,
+    "sauna": 32.5,
+    "timestamp": 1589204175000
+    },
+    {
+    "air": 14,
+    "water": 20.3,
+    "sauna": 31.8,
+    "timestamp": 1589205084000
+    },
+    {
+    "air": 13.8,
+    "water": 20.3,
+    "sauna": 30.8,
+    "timestamp": 1589205993000
+    },
+    {
+    "air": 13.5,
+    "water": 20,
+    "sauna": 29.8,
+    "timestamp": 1589206857000
+    },
+    {
+    "air": 13.5,
+    "water": 20,
+    "sauna": 29,
+    "timestamp": 1589207766000
+    },
+    {
+    "air": 13.5,
+    "water": 20,
+    "sauna": 28.3,
+    "timestamp": 1589208630000
+    },
+    {
+    "air": 13.8,
+    "water": 20,
+    "sauna": 27.5,
+    "timestamp": 1589209676000
+    },
+    {
+    "air": 13.8,
+    "water": 20,
+    "sauna": 26.8,
+    "timestamp": 1589210585000
+    },
+    {
+    "air": 13.8,
+    "water": 20,
+    "sauna": 26.3,
+    "timestamp": 1589211631000
+    },
+    {
+    "air": 13.8,
+    "water": 20,
+    "sauna": 25.8,
+    "timestamp": 1589212540000
+    },
+    {
+    "air": 13.8,
+    "water": 20,
+    "sauna": 25.3,
+    "timestamp": 1589213404000
+    },
+    {
+    "air": 14,
+    "water": 19.8,
+    "sauna": 24.8,
+    "timestamp": 1589214313000
+    },
+    {
+    "air": 14,
+    "water": 19.8,
+    "sauna": 24.3,
+    "timestamp": 1589215404000
+    },
+    {
+    "air": 13.8,
+    "water": 19.8,
+    "sauna": 24,
+    "timestamp": 1589216313000
+    },
+    {
+    "air": 13.8,
+    "water": 19.8,
+    "sauna": 23.5,
+    "timestamp": 1589217177000
+    },
+    {
+    "air": 13.5,
+    "water": 19.8,
+    "sauna": 23.3,
+    "timestamp": 1589218041000
+    },
+    {
+    "air": 13.3,
+    "water": 19.8,
+    "sauna": 23,
+    "timestamp": 1589218905000
+    },
+    {
+    "air": 13.3,
+    "water": 19.8,
+    "sauna": 22.8,
+    "timestamp": 1589219769000
+    },
+    {
+    "air": 13,
+    "water": 19.8,
+    "sauna": 22.3,
+    "timestamp": 1589220633000
+    },
+    {
+    "air": 13,
+    "water": 19.8,
+    "sauna": 22,
+    "timestamp": 1589221542000
+    },
+    {
+    "air": 13,
+    "water": 19.5,
+    "sauna": 21.8,
+    "timestamp": 1589222451000
+    },
+    {
+    "air": 12.8,
+    "water": 19.5,
+    "sauna": 21.5,
+    "timestamp": 1589223542000
+    },
+    {
+    "air": 13.5,
+    "water": 19.5,
+    "sauna": 21.3,
+    "timestamp": 1589224406000
+    },
+    {
+    "air": 13.5,
+    "water": 19.5,
+    "sauna": 20.8,
+    "timestamp": 1589225497000
+    },
+    {
+    "air": 14,
+    "water": 19.5,
+    "sauna": 20.8,
+    "timestamp": 1589226361000
+    },
+    {
+    "air": 14.8,
+    "water": 19.5,
+    "sauna": 20.5,
+    "timestamp": 1589227225000
+    },
+    {
+    "air": 15,
+    "water": 19.5,
+    "sauna": 20.3,
+    "timestamp": 1589228134000
+    },
+    {
+    "air": 15.5,
+    "water": 19.5,
+    "sauna": 20.3,
+    "timestamp": 1589228998000
+    },
+    {
+    "air": 16,
+    "water": 19.5,
+    "sauna": 20.3,
+    "timestamp": 1589229862000
+    },
+    {
+    "air": 16.5,
+    "water": 19.5,
+    "sauna": 20,
+    "timestamp": 1589230726000
+    },
+    {
+    "air": 17,
+    "water": 19.5,
+    "sauna": 20,
+    "timestamp": 1589231999000
+    },
+    {
+    "air": 17.5,
+    "water": 19.5,
+    "sauna": 20,
+    "timestamp": 1589232908000
+    },
+    {
+    "air": 18.3,
+    "water": 19.5,
+    "sauna": 20,
+    "timestamp": 1589233772000
+    },
+    {
+    "air": 18.8,
+    "water": 19.5,
+    "sauna": 19.8,
+    "timestamp": 1589234681000
+    },
+    {
+    "air": 19.5,
+    "water": 19.5,
+    "sauna": 19.8,
+    "timestamp": 1589235591000
+    },
+    {
+    "air": 20.3,
+    "water": 19.5,
+    "sauna": 19.8,
+    "timestamp": 1589236500000
+    },
+    {
+    "air": 21.3,
+    "water": 19.5,
+    "sauna": 20,
+    "timestamp": 1589237410000
+    },
+    {
+    "air": 21.8,
+    "water": 19.8,
+    "sauna": 20.3,
+    "timestamp": 1589238319000
+    },
+    {
+    "air": 22,
+    "water": 20,
+    "sauna": 20.8,
+    "timestamp": 1589239228000
+    },
+    {
+    "air": 21.8,
+    "water": 20,
+    "sauna": 21.5,
+    "timestamp": 1589240092000
+    },
+    {
+    "air": 23,
+    "water": 20,
+    "sauna": 21.8,
+    "timestamp": 1589240956000
+    },
+    {
+    "air": 23.8,
+    "water": 20.3,
+    "sauna": 22.3,
+    "timestamp": 1589241865000
+    },
+    {
+    "air": 24.5,
+    "water": 20.3,
+    "sauna": 22.8,
+    "timestamp": 1589242774000
+    },
+    {
+    "air": 24.3,
+    "water": 20.3,
+    "sauna": 23,
+    "timestamp": 1589243638000
+    },
+    {
+    "air": 25.3,
+    "water": 20.3,
+    "sauna": 23.3,
+    "timestamp": 1589244546000
+    },
+    {
+    "air": 24.3,
+    "water": 20.3,
+    "sauna": 23.8,
+    "timestamp": 1589245455000
+    },
+    {
+    "air": 25.3,
+    "water": 20.3,
+    "sauna": 24,
+    "timestamp": 1589246319000
+    },
+    {
+    "air": 24.8,
+    "water": 20.5,
+    "sauna": 24.3,
+    "timestamp": 1589247411000
+    },
+    {
+    "air": 25,
+    "water": 20.5,
+    "sauna": 24.3,
+    "timestamp": 1589248275000
+    },
+    {
+    "air": 25.5,
+    "water": 21,
+    "sauna": 24.3,
+    "timestamp": 1589249184000
+    },
+    {
+    "air": 25.5,
+    "water": 21,
+    "sauna": 24.5,
+    "timestamp": 1589250093000
+    },
+    {
+    "air": 24.5,
+    "water": 21,
+    "sauna": 24.3,
+    "timestamp": 1589250957000
+    },
+    {
+    "air": 25,
+    "water": 21,
+    "sauna": 24.5,
+    "timestamp": 1589251820000
+    },
+    {
+    "air": 25.5,
+    "water": 20.8,
+    "sauna": 24.5,
+    "timestamp": 1589252729000
+    },
+    {
+    "air": 25.5,
+    "water": 20.8,
+    "sauna": 24.5,
+    "timestamp": 1589253638000
+    },
+    {
+    "air": 24.8,
+    "water": 20.8,
+    "sauna": 24.8,
+    "timestamp": 1589254502000
+    },
+    {
+    "air": 25,
+    "water": 20.8,
+    "sauna": 24.8,
+    "timestamp": 1589255594000
+    },
+    {
+    "air": 25,
+    "water": 20.8,
+    "sauna": 24.8,
+    "timestamp": 1589256457000
+    },
+    {
+    "air": 24,
+    "water": 20.8,
+    "sauna": 24.8,
+    "timestamp": 1589257321000
+    },
+    {
+    "air": 25.5,
+    "water": 20.8,
+    "sauna": 25,
+    "timestamp": 1589258230000
+    },
+    {
+    "air": 24.8,
+    "water": 20.8,
+    "sauna": 25,
+    "timestamp": 1589259277000
+    },
+    {
+    "air": 24,
+    "water": 20.8,
+    "sauna": 25,
+    "timestamp": 1589260141000
+    },
+    {
+    "air": 24.8,
+    "water": 20.8,
+    "sauna": 25.3,
+    "timestamp": 1589261050000
+    },
+    {
+    "air": 24.5,
+    "water": 20.8,
+    "sauna": 25.3,
+    "timestamp": 1589261914000
+    },
+    {
+    "air": 23.5,
+    "water": 21,
+    "sauna": 25.3,
+    "timestamp": 1589262823000
+    },
+    {
+    "air": 22.5,
+    "water": 21,
+    "sauna": 25.3,
+    "timestamp": 1589263686000
+    },
+    {
+    "air": 22.5,
+    "water": 21,
+    "sauna": 25.3,
+    "timestamp": 1589264550000
+    },
+    {
+    "air": 21.8,
+    "water": 21,
+    "sauna": 25.3,
+    "timestamp": 1589265459000
+    },
+    {
+    "air": 21.8,
+    "water": 21,
+    "sauna": 25.3,
+    "timestamp": 1589266323000
+    },
+    {
+    "air": 20.8,
+    "water": 21,
+    "sauna": 25.3,
+    "timestamp": 1589267187000
+    },
+    {
+    "air": 20.5,
+    "water": 21,
+    "sauna": 25.3,
+    "timestamp": 1589268051000
+    },
+    {
+    "air": 20.3,
+    "water": 21,
+    "sauna": 25.3,
+    "timestamp": 1589268915000
+    },
+    {
+    "air": 20.3,
+    "water": 21,
+    "sauna": 25,
+    "timestamp": 1589269824000
+    },
+    {
+    "air": 19.5,
+    "water": 21,
+    "sauna": 25,
+    "timestamp": 1589270688000
+    },
+    {
+    "air": 19.3,
+    "water": 21,
+    "sauna": 24.8,
+    "timestamp": 1589271552000
+    },
+    {
+    "air": 19,
+    "water": 21,
+    "sauna": 24.8,
+    "timestamp": 1589272416000
+    },
+    {
+    "air": 18.5,
+    "water": 21,
+    "sauna": 24.8,
+    "timestamp": 1589273280000
+    },
+    {
+    "air": 18.3,
+    "water": 21,
+    "sauna": 24.5,
+    "timestamp": 1589274144000
+    },
+    {
+    "air": 18.3,
+    "water": 21,
+    "sauna": 24.5,
+    "timestamp": 1589275008000
+    },
+    {
+    "air": 18.5,
+    "water": 21,
+    "sauna": 24.3,
+    "timestamp": 1589275917000
+    },
+    {
+    "air": 17.8,
+    "water": 20.8,
+    "sauna": 24,
+    "timestamp": 1589276826000
+    },
+    {
+    "air": 17.5,
+    "water": 20.8,
+    "sauna": 23.8,
+    "timestamp": 1589277690000
+    },
+    {
+    "air": 17.5,
+    "water": 20.8,
+    "sauna": 23.8,
+    "timestamp": 1589278599000
+    },
+    {
+    "air": 17.5,
+    "water": 20.8,
+    "sauna": 23.5,
+    "timestamp": 1589279463000
+    },
+    {
+    "air": 17.5,
+    "water": 20.8,
+    "sauna": 23.3,
+    "timestamp": 1589280327000
+    },
+    {
+    "air": 17.5,
+    "water": 20.8,
+    "sauna": 23,
+    "timestamp": 1589281190000
+    },
+    {
+    "air": 17.8,
+    "water": 20.8,
+    "sauna": 22.8,
+    "timestamp": 1589282099000
+    },
+    {
+    "air": 17.5,
+    "water": 20.8,
+    "sauna": 22.5,
+    "timestamp": 1589283146000
+    },
+    {
+    "air": 17.8,
+    "water": 20.8,
+    "sauna": 22.3,
+    "timestamp": 1589284055000
+    },
+    {
+    "air": 17.8,
+    "water": 20.5,
+    "sauna": 22,
+    "timestamp": 1589284964000
+    },
+    {
+    "air": 17.5,
+    "water": 20.5,
+    "sauna": 22,
+    "timestamp": 1589285872000
+    },
+    {
+    "air": 17.3,
+    "water": 20.5,
+    "sauna": 21.8,
+    "timestamp": 1589286781000
+    },
+    {
+    "air": 17,
+    "water": 20.5,
+    "sauna": 21.5,
+    "timestamp": 1589287600000
+    },
+    {
+    "air": 17,
+    "water": 20.5,
+    "sauna": 21.5,
+    "timestamp": 1589288509000
+    },
+    {
+    "air": 16.8,
+    "water": 20.5,
+    "sauna": 21.3,
+    "timestamp": 1589289556000
+    },
+    {
+    "air": 16.8,
+    "water": 20.5,
+    "sauna": 21,
+    "timestamp": 1589290464000
+    },
+    {
+    "air": 16.8,
+    "water": 20.3,
+    "sauna": 20.8,
+    "timestamp": 1589291373000
+    },
+    {
+    "air": 16.5,
+    "water": 20.3,
+    "sauna": 20.5,
+    "timestamp": 1589292282000
+    },
+    {
+    "air": 16.5,
+    "water": 20.3,
+    "sauna": 20.5,
+    "timestamp": 1589293146000
+    },
+    {
+    "air": 16.3,
+    "water": 20.3,
+    "sauna": 20.3,
+    "timestamp": 1589294055000
+    },
+    {
+    "air": 16,
+    "water": 20.3,
+    "sauna": 20.3,
+    "timestamp": 1589294919000
+    },
+    {
+    "air": 16,
+    "water": 20.3,
+    "sauna": 20,
+    "timestamp": 1589295783000
+    },
+    {
+    "air": 15.8,
+    "water": 20.3,
+    "sauna": 20,
+    "timestamp": 1589296647000
+    },
+    {
+    "air": 15.5,
+    "water": 20,
+    "sauna": 20,
+    "timestamp": 1589297556000
+    },
+    {
+    "air": 15.5,
+    "water": 20,
+    "sauna": 19.8,
+    "timestamp": 1589298465000
+    },
+    {
+    "air": 15.5,
+    "water": 20,
+    "sauna": 19.8,
+    "timestamp": 1589299374000
+    },
+    {
+    "air": 15.3,
+    "water": 20,
+    "sauna": 19.5,
+    "timestamp": 1589300283000
+    },
+    {
+    "air": 14.8,
+    "water": 20,
+    "sauna": 19.5,
+    "timestamp": 1589301147000
+    },
+    {
+    "air": 15,
+    "water": 20,
+    "sauna": 19.3,
+    "timestamp": 1589302193000
+    },
+    {
+    "air": 15,
+    "water": 20,
+    "sauna": 19.3,
+    "timestamp": 1589303239000
+    },
+    {
+    "air": 15,
+    "water": 19.8,
+    "sauna": 19,
+    "timestamp": 1589304376000
+    },
+    {
+    "air": 14.5,
+    "water": 19.8,
+    "sauna": 19,
+    "timestamp": 1589305240000
+    },
+    {
+    "air": 14.5,
+    "water": 19.8,
+    "sauna": 19,
+    "timestamp": 1589306148000
+    },
+    {
+    "air": 14.3,
+    "water": 19.8,
+    "sauna": 18.8,
+    "timestamp": 1589307012000
+    },
+    {
+    "air": 14.5,
+    "water": 19.8,
+    "sauna": 18.8,
+    "timestamp": 1589307921000
+    },
+    {
+    "air": 14.5,
+    "water": 19.8,
+    "sauna": 18.5,
+    "timestamp": 1589308785000
+    },
+    {
+    "air": 14.3,
+    "water": 19.8,
+    "sauna": 18.5,
+    "timestamp": 1589309649000
+    },
+    {
+    "air": 14.3,
+    "water": 19.8,
+    "sauna": 18.5,
+    "timestamp": 1589310513000
+    },
+    {
+    "air": 14.3,
+    "water": 19.5,
+    "sauna": 18.3,
+    "timestamp": 1589311422000
+    },
+    {
+    "air": 14.3,
+    "water": 19.5,
+    "sauna": 18.3,
+    "timestamp": 1589312331000
+    },
+    {
+    "air": 14.8,
+    "water": 19.5,
+    "sauna": 18,
+    "timestamp": 1589313195000
+    },
+    {
+    "air": 15,
+    "water": 19.5,
+    "sauna": 18,
+    "timestamp": 1589314286000
+    },
+    {
+    "air": 15.3,
+    "water": 19.5,
+    "sauna": 17.8,
+    "timestamp": 1589315150000
+    },
+    {
+    "air": 15.5,
+    "water": 19.5,
+    "sauna": 17.8,
+    "timestamp": 1589316014000
+    },
+    {
+    "air": 16,
+    "water": 19.5,
+    "sauna": 17.5,
+    "timestamp": 1589317060000
+    },
+    {
+    "air": 16.3,
+    "water": 19.5,
+    "sauna": 17.5,
+    "timestamp": 1589317969000
+    },
+    {
+    "air": 16.3,
+    "water": 19.5,
+    "sauna": 17.5,
+    "timestamp": 1589318833000
+    },
+    {
+    "air": 16.5,
+    "water": 19.3,
+    "sauna": 17.5,
+    "timestamp": 1589319742000
+    },
+    {
+    "air": 16.8,
+    "water": 19.3,
+    "sauna": 17.5,
+    "timestamp": 1589320651000
+    },
+    {
+    "air": 17.3,
+    "water": 19.3,
+    "sauna": 17.5,
+    "timestamp": 1589321560000
+    },
+    {
+    "air": 18,
+    "water": 19.5,
+    "sauna": 17.5,
+    "timestamp": 1589322470000
+    },
+    {
+    "air": 19,
+    "water": 19.5,
+    "sauna": 17.8,
+    "timestamp": 1589323379000
+    },
+    {
+    "air": 19.5,
+    "water": 19.5,
+    "sauna": 18,
+    "timestamp": 1589324243000
+    },
+    {
+    "air": 20.8,
+    "water": 19.5,
+    "sauna": 18.5,
+    "timestamp": 1589325152000
+    },
+    {
+    "air": 21.3,
+    "water": 19.5,
+    "sauna": 19,
+    "timestamp": 1589326016000
+    },
+    {
+    "air": 21.5,
+    "water": 19.5,
+    "sauna": 19.5,
+    "timestamp": 1589326880000
+    },
+    {
+    "air": 22,
+    "water": 19.8,
+    "sauna": 20.3,
+    "timestamp": 1589327789000
+    },
+    {
+    "air": 23,
+    "water": 19.8,
+    "sauna": 20.8,
+    "timestamp": 1589328653000
+    },
+    {
+    "air": 23,
+    "water": 19.8,
+    "sauna": 21.3,
+    "timestamp": 1589329562000
+    },
+    {
+    "air": 23.3,
+    "water": 20,
+    "sauna": 21.5,
+    "timestamp": 1589330426000
+    },
+    {
+    "air": 23.5,
+    "water": 20,
+    "sauna": 21.8,
+    "timestamp": 1589331290000
+    },
+    {
+    "air": 23.5,
+    "water": 20,
+    "sauna": 22,
+    "timestamp": 1589332154000
+    },
+    {
+    "air": 23.8,
+    "water": 20,
+    "sauna": 22,
+    "timestamp": 1589333245000
+    },
+    {
+    "air": 24,
+    "water": 20,
+    "sauna": 22.3,
+    "timestamp": 1589334563000
+    },
+    {
+    "air": 23.3,
+    "water": 20,
+    "sauna": 22.3,
+    "timestamp": 1589335472000
+    },
+    {
+    "air": 23.3,
+    "water": 20,
+    "sauna": 22.3,
+    "timestamp": 1589336336000
+    },
+    {
+    "air": 23,
+    "water": 20,
+    "sauna": 22.3,
+    "timestamp": 1589337245000
+    },
+    {
+    "air": 23.8,
+    "water": 20,
+    "sauna": 22.3,
+    "timestamp": 1589338109000
+    },
+    {
+    "air": 22.8,
+    "water": 20,
+    "sauna": 22.3,
+    "timestamp": 1589339018000
+    },
+    {
+    "air": 23.5,
+    "water": 20,
+    "sauna": 22.5,
+    "timestamp": 1589340064000
+    },
+    {
+    "air": 23.8,
+    "water": 20,
+    "sauna": 22.3,
+    "timestamp": 1589340973000
+    },
+    {
+    "air": 23.5,
+    "water": 20,
+    "sauna": 22.5,
+    "timestamp": 1589342064000
+    },
+    {
+    "air": 23.8,
+    "water": 20,
+    "sauna": 22.8,
+    "timestamp": 1589342928000
+    },
+    {
+    "air": 23.8,
+    "water": 20,
+    "sauna": 22.8,
+    "timestamp": 1589343792000
+    },
+    {
+    "air": 24.3,
+    "water": 20,
+    "sauna": 23,
+    "timestamp": 1589344656000
+    },
+    {
+    "air": 22.5,
+    "water": 20.3,
+    "sauna": 23,
+    "timestamp": 1589345565000
+    },
+    {
+    "air": 23,
+    "water": 20.3,
+    "sauna": 23,
+    "timestamp": 1589346474000
+    },
+    {
+    "air": 23.5,
+    "water": 20.3,
+    "sauna": 23,
+    "timestamp": 1589347338000
+    },
+    {
+    "air": 23,
+    "water": 20.3,
+    "sauna": 23,
+    "timestamp": 1589348247000
+    },
+    {
+    "air": 23,
+    "water": 20.3,
+    "sauna": 23,
+    "timestamp": 1589349111000
+    },
+    {
+    "air": 22.5,
+    "water": 20.3,
+    "sauna": 23,
+    "timestamp": 1589349975000
+    },
+    {
+    "air": 22.3,
+    "water": 20.3,
+    "sauna": 23,
+    "timestamp": 1589350839000
+    },
+    {
+    "air": 22,
+    "water": 20.3,
+    "sauna": 23,
+    "timestamp": 1589351930000
+    },
+    {
+    "air": 22,
+    "water": 20.3,
+    "sauna": 23,
+    "timestamp": 1589352839000
+    },
+    {
+    "air": 21.8,
+    "water": 20.3,
+    "sauna": 23,
+    "timestamp": 1589353703000
+    },
+    {
+    "air": 21.3,
+    "water": 20.3,
+    "sauna": 23,
+    "timestamp": 1589354567000
+    },
+    {
+    "air": 21.3,
+    "water": 20.3,
+    "sauna": 22.8,
+    "timestamp": 1589355476000
+    },
+    {
+    "air": 21,
+    "water": 20.3,
+    "sauna": 22.8,
+    "timestamp": 1589356567000
+    },
+    {
+    "air": 20.5,
+    "water": 20.3,
+    "sauna": 22.8,
+    "timestamp": 1589357476000
+    },
+    {
+    "air": 20,
+    "water": 20.3,
+    "sauna": 22.8,
+    "timestamp": 1589358340000
+    },
+    {
+    "air": 20.3,
+    "water": 20.3,
+    "sauna": 22.8,
+    "timestamp": 1589359204000
+    },
+    {
+    "air": 20,
+    "water": 20.3,
+    "sauna": 22.5,
+    "timestamp": 1589360068000
+    },
+    {
+    "air": 20,
+    "water": 20.3,
+    "sauna": 22.5,
+    "timestamp": 1589360977000
+    },
+    {
+    "air": 19.8,
+    "water": 20.3,
+    "sauna": 22.5,
+    "timestamp": 1589361841000
+    },
+    {
+    "air": 19.8,
+    "water": 20.3,
+    "sauna": 22.3,
+    "timestamp": 1589362887000
+    },
+    {
+    "air": 19.3,
+    "water": 20,
+    "sauna": 22.3,
+    "timestamp": 1589363796000
+    },
+    {
+    "air": 19.5,
+    "water": 20,
+    "sauna": 22.3,
+    "timestamp": 1589364705000
+    },
+    {
+    "air": 19.3,
+    "water": 20,
+    "sauna": 22,
+    "timestamp": 1589365614000
+    },
+    {
+    "air": 19.5,
+    "water": 20,
+    "sauna": 22,
+    "timestamp": 1589366523000
+    },
+    {
+    "air": 19.8,
+    "water": 20,
+    "sauna": 21.8,
+    "timestamp": 1589367387000
+    },
+    {
+    "air": 19.5,
+    "water": 20,
+    "sauna": 21.8,
+    "timestamp": 1589368296000
+    },
+    {
+    "air": 19.5,
+    "water": 20,
+    "sauna": 21.8,
+    "timestamp": 1589369160000
+    },
+    {
+    "air": 19.5,
+    "water": 20,
+    "sauna": 21.5,
+    "timestamp": 1589370024000
+    },
+    {
+    "air": 19.3,
+    "water": 20,
+    "sauna": 21.5,
+    "timestamp": 1589370933000
+    },
+    {
+    "air": 19.3,
+    "water": 20,
+    "sauna": 21.3,
+    "timestamp": 1589371796000
+    },
+    {
+    "air": 19.3,
+    "water": 20,
+    "sauna": 21.3,
+    "timestamp": 1589372660000
+    },
+    {
+    "air": 19,
+    "water": 20,
+    "sauna": 21.3,
+    "timestamp": 1589373524000
+    }
+]
