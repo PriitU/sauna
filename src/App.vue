@@ -59,10 +59,13 @@ export default {
   },
   created() {
     this.series = [{
+      name: 'Sauna',
       data: json.map(s => {return {'x': s.timestamp, 'y': s.sauna}})
     },{
+      name: 'Air',
       data: json.map(s => {return {'x': s.timestamp, 'y': s.air}})
     },{
+      name: 'Water',
       data: json.map(s => {return {'x': s.timestamp, 'y': s.water}})
     }]    
     // axios.get(process.env.VUE_APP_ROOT_API)
