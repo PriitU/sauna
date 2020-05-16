@@ -12,7 +12,8 @@
     "core-js": "^3.6.4",
     "dotenv": "^8.2.0",
     "vue": "^2.6.11",
-    "vue-apexcharts": "^1.5.3"
+    "vue-apexcharts": "^1.5.3",
+    "vuejs-datepicker": "^1.6.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.3.0",

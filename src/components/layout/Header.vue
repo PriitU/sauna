@@ -1,12 +1,17 @@
 <template>
     <header class="header">
         <h1>Saun</h1>
+        <Datepicker />
     </header>
 </template>
 
 <script>
+    import Datepicker from '../Datepicker';
     export default {
-        name: "Header"
+        name: "Header",
+        components: {
+            Datepicker
+        }
     }
 </script>
 
