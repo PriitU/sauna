@@ -6,10 +6,10 @@
 </template>
 
 <script>
-// import axios from 'axios';
+import axios from 'axios';
 import Header from './components/layout/Header';
 import Graph from './components/Graph';
-import json from '../data.json';
+// import json from '../data.json';
 
 export default {
   name: 'App',
@@ -26,9 +26,13 @@ export default {
             autoScaleYaxis: true
           }
         },
+        colors: ['#FCBA03','#00E396','#008FFB'],
         xaxis: {
           type: 'datetime',
-          tickAmount: 6
+          tickAmount: 6,
+          labels: {
+            datetimeUTC: false
+          }
         },
         dataLabels: {
           enabled: false
@@ -58,41 +62,41 @@ export default {
     }
   },
   created() {
-    this.series = [{
-      name: 'Sauna',
-      data: json.map(s => {return {'x': s.timestamp, 'y': s.sauna}})
-    },{
-      name: 'Air',
-      data: json.map(s => {return {'x': s.timestamp, 'y': s.air}})
-    },{
-      name: 'Water',
-      data: json.map(s => {return {'x': s.timestamp, 'y': s.water}})
-    }]    
+    // this.series = [{
+    //   name: 'Sauna',
+    //   data: json.map(s => {return {'x': s.timestamp, 'y': s.sauna}})
+    // },{
+    //   name: 'Air',
+    //   data: json.map(s => {return {'x': s.timestamp, 'y': s.air}})
+    // },{
+    //   name: 'Water',
+    //   data: json.map(s => {return {'x': s.timestamp, 'y': s.water}})
+    // }]
     // Commented out due to static data being used (data.json)
-    // axios.get(process.env.VUE_APP_ROOT_API)
-    //   .then(res => {
-    //     const saunaData = res.data.map(s => {return {'x': s.timestamp, 'y': s.sauna}});
-    //     const airData = res.data.map(s => {return {'x': s.timestamp, 'y': s.air}});
-    //     const waterData = res.data.map(s => {return {'x': s.timestamp, 'y': s.water}});
-    //     //const humidityData = res.data.map(s => {return {'x': s.timestamp, 'y': s.humidity}});
-    //     //const uvData = res.data.map(s => {return {'x': s.timestamp, 'y': s.uv}});
-    //     //const airPressureData = res.data.map(s => {return {'x': s.timestamp, 'y': s.airPressure}});
-    //     //console.log(saunaData);
-    //     //console.log(airData);
-    //     //console.log(waterData);
-    //     //console.log(humidityData);
-    //     //console.log(uvData);
-    //     //console.log(airPressureData);
-    //     this.series = [{
-    //       data: saunaData
-    //     },{
-    //       data: airData
-    //     },{
-    //       data: waterData
-    //     }]
-    //   })
-    //   .catch(err => console.log(err));
-  }  
+    axios.get(process.env.VUE_APP_ROOT_API)
+      .then(res => {
+        const saunaData = res.data.map(s => {return {'x': s.timestamp, 'y': s.sauna}});
+        const airData = res.data.map(s => {return {'x': s.timestamp, 'y': s.air}});
+        const waterData = res.data.map(s => {return {'x': s.timestamp, 'y': s.water}});
+        //const humidityData = res.data.map(s => {return {'x': s.timestamp, 'y': s.humidity}});
+        //const uvData = res.data.map(s => {return {'x': s.timestamp, 'y': s.uv}});
+        //const airPressureData = res.data.map(s => {return {'x': s.timestamp, 'y': s.airPressure}});
+        //console.log(saunaData);
+        //console.log(airData);
+        //console.log(waterData);
+        //console.log(humidityData);
+        //console.log(uvData);
+        //console.log(airPressureData);
+        this.series = [{
+          data: saunaData
+        },{
+          data: airData
+        },{
+          data: waterData
+        }]
+      })
+      .catch(err => console.log(err));
+  }
 }
 </script>
 
