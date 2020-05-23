@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header />
+    <Stats  v-bind:series="series"/>
     <Graph :options="options" :series="series" />
   </div>
 </template>
@@ -9,12 +10,14 @@
 import axios from 'axios';
 import Header from './components/layout/Header';
 import Graph from './components/Graph';
+import Stats from './components/Stats';
 // import json from '../data.json';
 
 export default {
   name: 'App',
   components: {
     Header,
+    Stats,
     Graph
   },
   data() {
@@ -26,13 +29,18 @@ export default {
             autoScaleYaxis: true
           }
         },
+        stroke: {
+          show: true,
+          curve: 'smooth',
+          lineCap: 'butt',
+          colors: undefined,
+          width: 2,
+          dashArray: 0,
+        },
         colors: ['#FCBA03','#00E396','#008FFB'],
         xaxis: {
           type: 'datetime',
-          tickAmount: 6,
-          labels: {
-            datetimeUTC: false
-          }
+          tickAmount: 6
         },
         dataLabels: {
           enabled: false
@@ -88,11 +96,14 @@ export default {
         //console.log(uvData);
         //console.log(airPressureData);
         this.series = [{
-          data: saunaData
+          data: saunaData,
+          latest : saunaData.slice(-1)[0].y
         },{
-          data: airData
+          data: airData,
+          latest : airData.slice(-1)[0].y
         },{
-          data: waterData
+          data: waterData,
+          latest : waterData.slice(-1)[0].y
         }]
       })
       .catch(err => console.log(err));
