@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h2>Last update: {{series[0].latestUpdateTime}}</h2>
     <h2>Sauna: {{ series[0].latest }} C</h2>
     <h2>Air: {{ series[1].latest }} C</h2>
     <h2>Water: {{ series[2].latest }} C</h2>

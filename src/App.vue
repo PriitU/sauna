@@ -97,13 +97,14 @@ export default {
         //console.log(airPressureData);
         this.series = [{
           data: saunaData,
-          latest : saunaData.slice(-1)[0].y
+          latest : saunaData.slice(-1)[0].y,
+          latestUpdateTime : new Date(saunaData.slice(-1)[0].x).toLocaleString('en-GB', { timeZone: 'UTC' })
         },{
           data: airData,
-          latest : airData.slice(-1)[0].y
+          latest : airData.slice(-1)[0].y,
         },{
           data: waterData,
-          latest : waterData.slice(-1)[0].y
+          latest : waterData.slice(-1)[0].y,
         }]
       })
       .catch(err => console.log(err));
