@@ -13,7 +13,8 @@
     "dotenv": "^8.2.0",
     "vue": "^2.6.11",
     "vue-apexcharts": "^1.5.3",
-    "vuejs-datepicker": "^1.6.2"
+    "vuejs-datepicker": "^1.6.2",
+    "vuetify-datetime-picker": "^2.1.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.3.0",
