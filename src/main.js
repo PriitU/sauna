@@ -3,6 +3,7 @@ import App from './App.vue'
 
 import VueApexCharts from 'vue-apexcharts';
 import vuetify from './plugins/vuetify';
+import './registerServiceWorker'
 Vue.use(VueApexCharts)
 Vue.component('apexchart', VueApexCharts);
 
