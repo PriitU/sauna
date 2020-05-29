@@ -29,10 +29,10 @@ String rssi = "RSSI --";
 String packSize = "--";
 String packet ;
 
-const char* ssid = "SSID";
-const char* password = "PWD";
-const char* host = "URI";
-//const char* voti = "v11t1na";
+const char* ssid = SSID;
+const char* password = PWD;
+const char* host = URI;
+
 long randNum;
 float sauna;
 float water;
