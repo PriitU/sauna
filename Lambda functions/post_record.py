@@ -1,11 +1,15 @@
 import os
 import boto3
 from boto3.dynamodb.conditions import Key, Attr
+from boto3 import client as boto3_client
 import time
+import json
 from datetime import datetime
 from dateutil import tz
 
-def tempAnalysis(air, sauna, hour):
+lambda_client = boto3_client('lambda')
+
+def tempAnalysis(air, sauna, hour, status):
     '''Analysis of sauna state and custom response for the next update time
         Inputs: air temperature
                 sauna temperature
@@ -15,12 +19,10 @@ def tempAnalysis(air, sauna, hour):
     tempDiff = sauna-air
     if int(hour.hour) < 8:
         responseTime = 15
-    elif tempDiff > 20:
-        # TODO: Create new lambda function to determine the direction of sauna temperature,
-        #       no need to log so often when the sauna is cooling down
+    elif status == 'heating':
         responseTime = 2
     else:
-        responseTime = 5
+        responseTime = 10
     return responseTime
 
 def lambda_handler(event, context):
@@ -30,7 +32,13 @@ def lambda_handler(event, context):
     ts = time.time()
     dt_object = datetime.fromtimestamp(ts, TZ)
 
-    responseT = tempAnalysis(event['air'], event['sauna'], dt_object)
+    invoke_res = lambda_client.invoke(FunctionName="sauna-tempDirection",
+                                    InvocationType="RequestResponse"
+                                    )
+
+    status = invoke_res['Payload'].read().decode("utf-8").strip('"')
+
+    responseT = tempAnalysis(event['air'], event['sauna'], dt_object, status)
     #print(dt_object.strftime('%-H'))
 
     event["timestamp"] = int(ts)
@@ -45,4 +53,4 @@ def lambda_handler(event, context):
     event["humidity"] = int(event["humidity"]*100)
     table.put_item(Item=event)
 
-    return {"code":200, "message":"Item added to DB", "responseTime":responseT}
+    print(status)
