@@ -1,4 +1,4 @@
-# sauna
+# Sauna IoT
 
 This is a small IoT hobby project that got started in April 2017.
 The project involves a remote sensor setup using the LoRa network to send data from a lakeside sauna (weather data and temperature in sauna) to a receiver node and a front- & backend setup to store and view the data.
