@@ -15,7 +15,9 @@ Image of previous frontend (**TODO**).
 V2 (2020-..):
 In 2020 I rebuilt the system while learning AWS and decided to set it up as an [AWS serverless](https://aws.amazon.com/serverless/) solution with Dynamodb, API gateway and Lambda functions. The frontend this time was build with Vue.js.  
 Image of architecture (**TODO**).  
-Image of current frontend (**TODO**).  
+Image of current frontend (**TODO**).
+![App](https://github.com/PriitU "Vue.js frontend")
+
 
 ## This repository
 This repo includes the Vue.js frontend, AWS Lambda functions for backend and Arduino code used on the IoT nodes handling the LoRa data exchange.  
