@@ -42,6 +42,7 @@ float humidity;
 float UV;
 float BAT_voltage;
 int resetCount = 0;
+int loopCount = 0;
 
 String getValue(String data, char separator, int index){
     int found = 0;
@@ -138,7 +139,7 @@ void loop()
     while (LoRa.available()) {
       received += (char) LoRa.read();
     }
-
+    loopCount++;
     //Serial.println(received);
     String url = host;
     //url += "/";
@@ -206,6 +207,11 @@ void loop()
     } else {
       resetCount++;
       connectWifi();
+    }
+    if (loopCount > 50){
+      WiFi.disconnect();
+      delay(100);
+      ESP.restart();
     }
   }
   //Serial.println("New Loop");
