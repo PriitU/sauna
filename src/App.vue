@@ -64,6 +64,7 @@ export default {
       options: {
         chart: {
           id: 'sauna',
+          background: '#aaa',
           zoom: {
             autoScaleYaxis: true
           }

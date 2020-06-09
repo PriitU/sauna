@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <apexchart width=100% type="area" :options=options :series=series></apexchart>
+  <div class="center">
+    <apexchart type="area" :options=options :series=series></apexchart>
   </div>
 </template>
 
@@ -16,5 +16,10 @@
 </script>
 
 <style scoped>
-
+  .center {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    background: #f5f5f5;
+  }
 </style>
