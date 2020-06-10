@@ -1,6 +1,8 @@
 <template>
-  <div class="center">
-    <apexchart type="area" :options=options :series=series></apexchart>
+  <div class="mx-auto my-2 center">
+    <v-card :elevation=3>
+      <apexchart type="area" :options=options :series=series></apexchart>
+    </v-card>
   </div>
 </template>
 
@@ -19,7 +21,5 @@
   .center {
     margin: auto;
     width: 90%;
-    padding: 10px;
-    background: #f5f5f5;
   }
 </style>

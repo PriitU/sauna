@@ -42,7 +42,9 @@
       <Stats  v-bind:series="series"/>
       <Graph :options="options" :series="series" />
     </div>
-
+    <v-footer app>
+      <span>&copy; 2020</span>
+    </v-footer>
   </v-app>
 </template>
 
@@ -64,10 +66,11 @@ export default {
       options: {
         chart: {
           id: 'sauna',
-          background: '#aaa',
+          background: '#fff',
           zoom: {
             autoScaleYaxis: true
-          }
+          },
+          parentHeightOffset: 0
         },
         stroke: {
           show: true,
