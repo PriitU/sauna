@@ -39,8 +39,17 @@
 
     <div id="app">
       <Header />
-      <Stats  v-bind:series="series"/>
-      <Graph :options="options" :series="series" />
+      <v-container>
+        <v-layout row justify-space-around>
+          <v-flex xs12 md5>
+            <Stats  v-bind:series="series"/>
+          </v-flex>
+          <v-flex xs12 md6>
+            <Graph :options="options" :series="series" />
+          </v-flex>
+
+        </v-layout>
+      </v-container>
     </div>
     <v-footer app>
       <span>&copy; 2020</span>

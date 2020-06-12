@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto my-2 center">
+  <div class="my-1">
     <v-card :elevation=3>
       <apexchart type="area" :options=options :series=series></apexchart>
     </v-card>
@@ -18,8 +18,4 @@
 </script>
 
 <style scoped>
-  .center {
-    margin: auto;
-    width: 90%;
-  }
 </style>
