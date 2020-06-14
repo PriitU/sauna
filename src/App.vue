@@ -1,10 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
+    <v-app-bar app color="primary" dark>
       <div class="d-flex align-center">
         <v-img
           alt="Vuetify Logo"
@@ -32,10 +28,10 @@
       <Header />
       <v-container>
         <v-layout row justify-space-around>
-          <v-flex xs12 md5>
+          <v-flex xs11 md5>
             <Stats  v-bind:series="series"/>
           </v-flex>
-          <v-flex xs12 md6>
+          <v-flex xs11 md6>
             <Graph :options="options" :series="series" />
           </v-flex>
 
@@ -133,6 +129,9 @@ export default {
         const saunaData = res.data.map(s => {return {'x': s.timestamp, 'y': s.sauna}});
         const airData = res.data.map(s => {return {'x': s.timestamp, 'y': s.air}});
         const waterData = res.data.map(s => {return {'x': s.timestamp, 'y': s.water}});
+        const lastUpdate = new Date(saunaData.slice(-1)[0].x)//.toLocaleString('en-GB', { timeZone: 'UTC' })
+        const currentTime = new Date()//.toLocaleString('en-GB', { timeZone: 'UTC' })
+        const timeFromUpdate = Math.round((currentTime.getTime()-lastUpdate.getTime())/1000/60)
         //const humidityData = res.data.map(s => {return {'x': s.timestamp, 'y': s.humidity}});
         //const uvData = res.data.map(s => {return {'x': s.timestamp, 'y': s.uv}});
         //const airPressureData = res.data.map(s => {return {'x': s.timestamp, 'y': s.airPressure}});
@@ -145,7 +144,8 @@ export default {
         this.series = [{
           data: saunaData,
           latest : saunaData.slice(-1)[0].y,
-          latestUpdateTime : new Date(saunaData.slice(-1)[0].x).toLocaleString('en-GB', { timeZone: 'UTC' })
+          latestUpdateTime : lastUpdate,
+          timeFromUpdate : timeFromUpdate
         },{
           data: airData,
           latest : airData.slice(-1)[0].y,
