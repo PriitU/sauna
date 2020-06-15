@@ -1,34 +1,20 @@
+
 <template>
-    <header class="header">
-        <h1>Saun</h1>
-        <Datepicker />
-    </header>
+<v-row justify="center">
+  <v-date-picker v-model="picker"></v-date-picker>
+</v-row>
 </template>
 
 <script>
-    import Datepicker from '../Datepicker';
-    export default {
-        name: "Header",
-        components: {
-            Datepicker
-        }
+export default {
+  data () {
+    return {
+      picker: new Date().toISOString().substr(0, 10),
     }
+  },
+}
 </script>
 
 <style scoped>
-    h1 {
-        margin: 5px;
-    }
 
-    .header {
-        background: #333;
-        color: #fff;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .header a {
-        color: #fff;
-        padding-right: 5px;
-    }
 </style>

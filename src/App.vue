@@ -23,21 +23,21 @@
         <v-icon>mdi-open-in-new</v-icon>
       </v-btn>
     </v-app-bar>
-
-    <div id="app">
-      <Header />
-      <v-container>
-        <v-layout row justify-space-around>
-          <v-flex xs11 md5>
-            <Stats  v-bind:series="series"/>
-          </v-flex>
-          <v-flex xs11 md6>
-            <Graph :options="options" :series="series" />
-          </v-flex>
-
-        </v-layout>
-      </v-container>
-    </div>
+    <v-content>
+    <v-container>
+      <v-layout row justify-space-around>
+        <v-flex xs11 md3>
+          <Header  v-bind:series="series"/>
+        </v-flex>
+        <v-flex xs11 md3>
+          <Stats  v-bind:series="series"/>
+        </v-flex>
+        <v-flex xs11 md6>
+          <Graph :options="options" :series="series" />
+        </v-flex>
+      </v-layout>
+    </v-container>
+  </v-content>
     <v-footer app>
       <span>&copy; 2020</span>
     </v-footer>
