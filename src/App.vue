@@ -25,14 +25,14 @@
     </v-app-bar>
     <v-content>
     <v-container>
-      <v-layout row justify-space-around>
-        <v-flex xs11 md3>
+      <v-layout row justify-center>
+        <v-flex xs6 md4>
           <Header  v-bind:series="series"/>
         </v-flex>
-        <v-flex xs11 md3>
+        <v-flex xs7 md4>
           <Stats  v-bind:series="series"/>
         </v-flex>
-        <v-flex xs11 md6>
+        <v-flex xs11 md8>
           <Graph :options="options" :series="series" />
         </v-flex>
       </v-layout>

@@ -1,8 +1,8 @@
 
 <template>
-<v-row justify="center">
+<v-card class="my-1" justify="center">
   <v-date-picker v-model="picker"></v-date-picker>
-</v-row>
+</v-card>
 </template>
 
 <script>
