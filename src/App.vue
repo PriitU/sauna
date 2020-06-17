@@ -27,7 +27,7 @@
     <v-container>
       <v-layout row justify-center>
         <v-flex xs6 md4>
-          <Header  v-bind:series="series"/>
+          <Datepicker  v-bind:series="series"/>
         </v-flex>
         <v-flex xs7 md4>
           <Stats  v-bind:series="series"/>
@@ -46,14 +46,14 @@
 
 <script>
 import axios from 'axios';
-import Header from './components/layout/Header';
 import Graph from './components/Graph';
 import Stats from './components/Stats';
+import Datepicker from './components/Datepicker';
 // import json from '../data.json';
 export default {
   name: 'App',
   components: {
-    Header,
+    Datepicker,
     Stats,
     Graph
   },
