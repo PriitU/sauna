@@ -1,8 +1,8 @@
 
 <template>
-<v-card class="mx-1 my-1" justify="center" height="100%">
+<!--<v-card class="mx-1 my-1" justify="center" height="100%">-->
   <v-date-picker v-model="picker"></v-date-picker>
-</v-card>
+<!--</v-card>-->
 </template>
 
 <script>
