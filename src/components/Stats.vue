@@ -1,5 +1,5 @@
 <template>
-    <v-card class="mx-1 my-1" height="100%">
+    <v-card class="mx-1 my-1">
       <h3>Last update <small>({{ series[0].timeFromUpdate }} min ago)</small>:<br />{{series[0].latestUpdateTime.toLocaleString()}}</h3>
       <h3>Sauna: {{ series[0].latest }} C</h3>
       <h3>Air: {{ series[1].latest }} C</h3>
