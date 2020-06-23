@@ -29,10 +29,10 @@
         <!--<v-flex xs6 md4>
           <Datepicker  v-bind:series="series"/>
         </v-flex>-->
-        <v-flex xs7 md4>
+        <v-flex xs10 md4>
           <Stats  v-bind:series="series"/>
         </v-flex>
-        <v-flex xs11 md8>
+        <v-flex xs12 md8>
           <Graph :options="options" :series="series" />
         </v-flex>
       </v-layout>
@@ -97,7 +97,8 @@ export default {
       series: [
         {
           name: 'Sauna',
-          data: []
+          data: [],
+          latestUpdateTime: 'August 19, 1975 23:15:30 GMT+00:00'
         },{
           name: 'Air',
           data: []
@@ -131,7 +132,7 @@ export default {
         const waterData = res.data.map(s => {return {'x': s.timestamp, 'y': s.water}});
         const lastUpdate = new Date(saunaData.slice(-1)[0].x)//.toLocaleString('en-GB', { timeZone: 'UTC' })
         const currentTime = new Date()//.toLocaleString('en-GB', { timeZone: 'UTC' })
-        const timeFromUpdate = Math.round((currentTime.getTime()-lastUpdate.getTime())/1000/60)
+        const timeFromUpdate = Math.round((currentTime.getTime()-lastUpdate.getTime())/1000/60)+180
         //const humidityData = res.data.map(s => {return {'x': s.timestamp, 'y': s.humidity}});
         //const uvData = res.data.map(s => {return {'x': s.timestamp, 'y': s.uv}});
         //const airPressureData = res.data.map(s => {return {'x': s.timestamp, 'y': s.airPressure}});
